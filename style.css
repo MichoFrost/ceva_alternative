@@ -1,0 +1,272 @@
+/** FORSIDE **/
+
+body {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    gap: 130vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: 0;
+}
+
+@media (max-width: 480px) {
+
+ul {
+        display: flex;
+        gap: 15vh;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin: 0;
+   }
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 10px;
+}
+
+a {
+    font-weight: bold;
+    font-family: Helvetica, sans-serif, serif;
+    color: whitesmoke;
+    font-size: 15px;
+    letter-spacing: 5px;
+    line-height: 1;
+    text-decoration: none;
+    opacity: 90%;
+}
+
+li:hover {
+    opacity: 50%;
+}
+
+.TEST div:hover {
+    opacity: 50%;
+}
+
+.TEST {
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    
+    .TEST {
+        grid-template-columns: 1fr;
+    }
+    
+    .TEST div {
+        background-size: 480px;
+        width: 100%;
+    }
+
+    .TEST div:hover {
+        opacity: 100%;
+    }
+
+}
+
+    .TEST div {
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+    
+}
+
+ /** INTRO **/
+
+ .intro { 
+    display: grid;
+    background-image: url(./imgs/introuge.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: 1500px;
+    max-width: 100%;
+    height: 100vh;
+ }
+
+.intro h1 {
+    color: whitesmoke;
+    mix-blend-mode: color-dodge;
+    text-align: center;
+    font-size: 400px;
+    letter-spacing: 120px;
+    margin-top: 80px;
+}
+
+.intro h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 400px;
+    letter-spacing: 120px;
+    margin-top: 80px;
+}
+
+
+
+ /** WEB **/
+
+ .web { 
+    display: grid;
+    grid-template-columns: repeat 4, 1 fr;
+    background-image: url(./imgs/grundweb.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: 1500px;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.web h1 {
+    color: whitesmoke;
+    mix-blend-mode: color-dodge;
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    font-size: 400px;
+    letter-spacing: 120px;
+    margin-top: 80px;
+}
+
+.web h2 {
+    color: whitesmoke;
+    mix-blend-mode: color-dodge;
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    font-size: 400px;
+    letter-spacing: 120px;
+    margin-top: 80px;
+}
+
+/** UX **/
+
+ .ux { 
+    display: grid;
+    grid-template-columns: repeat 1, 1 fr;
+    background-image: url(./imgs/grundux.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: 1500px;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.ux h1 {
+    color: whitesmoke;
+    mix-blend-mode: color-dodge;
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    font-size: 400px;
+    letter-spacing: 120px;
+    margin-top: 80px;
+}
+
+.ux h2 {
+    color: whitesmoke;
+    mix-blend-mode: color-dodge;
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    font-size: 400px;
+    letter-spacing: 120px;
+    margin-top: 80px;
+}
+
+ /** ANIMATION **/
+
+ .animation { 
+    display: grid;
+    grid-template-columns: repeat 1, 1 fr;
+    background-image: url(./imgs/spilbaggrund.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: 1500px;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.animation h1 {
+    color: whitesmoke;
+    mix-blend-mode: color-dodge;
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    font-size: 400px;
+    letter-spacing: 120px;
+    margin-top: 80px;
+}
+
+.animation h2 {
+    color: whitesmoke;
+    mix-blend-mode: color-dodge;
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    font-size: 400px;
+    letter-spacing: 120px;
+    margin-top: 80px;
+}
+
+ /** INDHOLD **/
+
+ .indhold { 
+    background-image: url(./imgs/bellydancer-1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1500px;
+    width: 100%;
+    height: 100vh;
+}
+
+
+ /** ABOUT **/
+
+.about { 
+    display: grid;
+    grid-template-columns: repeat 1, 1 fr;
+    background-image: url(./imgs/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: 1500px;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.about h1 {
+    color: whitesmoke;
+    mix-blend-mode: color-dodge;
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    font-size: 400px;
+    letter-spacing: 120px;
+    margin-top: 80px;
+}
+
+.about h2 {
+    color: whitesmoke;
+    mix-blend-mode: color-dodge;
+    font-family: 'Kaisei Tokumin', serif;
+    text-align: center;
+    font-size: 400px;
+    letter-spacing: 120px;
+    margin-top: 80px;
+}
+
+.about h3 {
+    font-size: 300px;
+}
+
+/** FOOTER **/
+
+.footer {
+    text-align: center;
+}
+

@@ -1,0 +1,628 @@
+/** HJEM **/
+
+
+.navi {
+   position: absolute;
+}
+
+.burgericon {
+   display: none;
+}
+
+
+
+@media (max-width: 480px) {
+    
+   .navi {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(5);
+      font-size: 13px;
+      letter-spacing: 30px;
+      translate: 0px -60px;
+   }
+
+   .navi.visible {
+      translate: 0px 0px;
+   }
+
+   .burgericon {
+      display: block;
+      position: fixed;
+      left: 39%;
+      width: 100px;
+      cursor: pointer;
+   }
+   
+
+
+   .TEST {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(5);
+   }
+
+   a {
+      font-size: 15px;
+   }
+
+   li {
+      list-style: none;
+      text-align: center;
+      margin-top: 20px;
+      letter-spacing: 10px;
+   }
+
+   .TEST h2 {
+      display: flex;
+      align-items: center; 
+      font-size: 65px;
+
+   }
+
+
+}
+
+
+ /** FORSIDE **/
+
+ .hjem_grid_1-1-1-1-1 {
+    display: grid;
+    grid-template-columns: repeat, (5fr);
+ }
+
+ .intro_hjem {
+    grid-column: 1/2; 
+    grid-row: 1/2;
+ }
+ .web_hjem {
+    grid-column: 2/3; 
+    grid-row: 1/2;
+ }
+ .ux_hjem {
+    grid-column: 3/4; 
+    grid-row: 1/2;
+ }
+ .animation_hjem {
+    grid-column: 4/5; 
+    grid-row: 1/2;
+ }
+ .indhold_hjem {
+    grid-column: 5/6; 
+    grid-row: 1/2;
+ }
+
+
+/** MERE **/ 
+
+
+
+.nav_tema {
+   font-size: 40px;
+   mix-blend-mode: lighten;
+}
+
+main {
+    border-radius: 800px;
+    max-width: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 15px;
+    color: rgb(222, 221, 221);
+    font-family: Helvetica, sans-serif, serif;
+    text-align: center;
+    margin: 100px 50px 100px 50px;
+}
+
+h2 {
+    margin: 30;
+    font-size: 18px;
+    color: rgb(92, 90, 90);
+    font-family: Helvetica, sans-serif, serif;
+}
+
+h3 {
+    margin: 30;
+    font-size: 25px;
+    color: rgb(1, 1, 1);
+    font-family: Helvetica, sans-serif, serif;
+    text-align: center;
+    margin: 100px 50px 100px 50px;
+}
+
+h4 {
+    margin: 30;
+    font-size: 18px;
+    color: rgb(1, 1, 1);
+    font-family: Helvetica, sans-serif, serif;
+    text-align: center;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 10px
+}
+
+h6 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin: 0px;
+}
+
+
+.footer p {
+    margin: 50px;
+    color: rgb(225, 220, 220);
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+p {
+   margin: 50;
+   color: rgb(1, 1, 1);
+   font-family: Helvetica, serif;
+   text-align: justify;
+   line-height: 2;
+}
+
+
+ /** INTRO **/
+
+.you {
+   width: 500px
+}
+
+ .intro_grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+
+ .præsentationskort_p {
+    grid-column: 1/2; 
+    grid-row: 1/2;
+    margin: 20px 0px 20px 0px;
+    line-height: 2;
+   }
+
+ .præsentationskort_img {
+    grid-column: 2/3; 
+    grid-row: 1/2;
+    margin: 30px 10px 70px 0px;
+    width: 500px;
+ }
+
+ .titelsekvens_p {
+    grid-column: 2/3; 
+    grid-row: 2/3;
+    margin: 0px 20px 10px 50px;
+    line-height: 2;
+ }
+
+ .titelsekvens_video {
+    grid-column: 1/2; 
+    grid-row: 2/3;
+    width: 100%;
+
+ }
+
+ .storyboard_p {
+    grid-column: 1/2; 
+    grid-row: 3/4;
+    margin: 50px 0px 20px 0px;
+    line-height: 2;
+ }
+
+ .storyboard_img {
+    grid-column: 2/3; 
+    grid-row: 3/4;
+    width: 100%;
+    margin: 100px 0px 30px 30px;
+ }
+ 
+
+@media (max-width: 480px) {
+
+   .theme1 {
+      display: block;
+   }
+
+   .intro {
+      background-size: 100%;
+      height: 250px;
+   }
+
+   .titelsekvens_p {
+      margin: 0;
+   }
+
+   .præsentationskort_img {
+      width: 100%;
+      margin: 0;
+   }
+
+   .you {
+      width: 100%;
+   }
+
+   .story {
+      width: 100%;
+   }
+
+   .storyboard_img {
+      margin: 0;
+   }
+}
+
+ /** WEB **/
+
+.web_grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 4fr;
+}
+
+.studiestartsprøve {
+    grid-column: 1/2; 
+    grid-row: 1/2;
+    margin: 20px 50px 20px 0px;
+
+ }
+ 
+ .studiestartsprøve_p {
+    grid-column: 2/5;
+    grid-row: 1/2;
+    margin: 20px 50px 20px 20px;
+    line-height: 2;
+ }
+
+ 
+ .emnesite_p {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    line-height: 2;
+ }
+
+ .emnesite {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 10px 50px 20px 20px;
+
+ }
+
+.emnesite_img {
+    grid-column: 4/5;
+    grid-row: 2/3;
+    margin: 100px 50px 20px 20px;
+    line-height: 100px;
+}
+
+.emnesite_img img {
+   width: 100%;
+}
+
+@media (max-width: 480px) {
+    
+   .theme2 {
+      display: block;    
+   }
+
+   .web h1 {
+       margin: 50px 40px 30px 30px;
+       font-size: 70px;
+       letter-spacing: 5px;
+    }
+   
+    .web p {
+       margin: 10px 50px 10px 30px;
+    }
+
+   .web {
+      background-size: 100%;
+      height: 250px;
+   }
+
+   .studiestartsprøve_p {
+      width: 100%;
+      margin: 0;
+   }
+
+   .moodboard {
+      width: 100%;
+   }
+
+   .styletile {
+      width: 100%;
+   }
+
+   .emnesite_img {
+      width: 100%;
+      margin: 0;
+   }
+}
+
+
+ /** UX **/
+
+.ux_grid_1-1 {
+    display: grid;
+    grid-template-columns: 2fr;
+}
+
+.lofihifi {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+}
+
+.prototype {
+    grid-column: 1/4;
+    grid-row: 3/4;
+    margin: 20px 50px 20px 0px;
+    line-height: 2;
+}
+
+.citat {
+   grid-column: 1/4;
+   grid-row: 4/5;
+   margin: 20px 20px 20px 20px;
+}
+
+.prototype_video {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+
+.observation {
+    grid-column: 3/4;
+    grid-row: 5/6;
+    margin: 0px 50px 50px 50px;
+    line-height: 2;
+}
+
+.soul {
+   width: 500px
+}
+
+@media (max-width: 480px) {
+
+   
+   .theme3 {
+      display: block;
+   }
+   
+   .ux {
+      background-size: 100%;
+      height: 250px;
+   }
+
+   .design {
+      width: 100%;
+   }
+
+   .prototype {
+      width: 100%;
+      margin: 0;
+   }
+
+   .observation {
+      width: 100%;
+      margin: 0;
+   }
+   
+   .soul {
+      width: 100%;
+   }
+}
+
+/** ANIMATION **/
+
+.animation_grid_1-1 {
+   display: grid;
+   grid-template-columns: 2fr;
+}
+
+.animation_p {
+   grid-column: 1/2;
+   grid-row: 1/2;
+   border-bottom: 2px black solid;
+   padding-bottom: 20px;
+   padding-top: 20px;
+   margin-right: 30px ;
+}
+
+.spil {
+   margin-top: 50px;
+}
+
+@media (max-width: 480px) {
+
+   
+   .theme4 {
+      display: block;
+   }
+   
+   .animation {
+      background-size: 100%;
+      height: 300px;
+   }
+   
+   .animation_p {
+      width: 100%;
+      margin: 0;
+   }
+   
+   .spil img {
+      width: 100%;
+      margin: 0;
+   }
+}
+
+ /** INDHOLD **/
+
+.animation {
+    align-self: center;
+}
+
+.indhold_grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 4fr;
+}
+
+.videosite_p {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: right;
+    margin: 20px 20px 20px 0px;
+    line-height: 2;
+}
+
+.virksomhedssite_p {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 20px 20px 20px 5px;
+    line-height: 2;
+}
+
+.videosite_video {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: right;
+    margin-right: 20px;
+   }
+
+.virksomhedssite_video {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: left;
+}
+
+.belly {
+   width: 500px;
+}
+
+.lille {
+   width: 500px
+}
+
+@media (max-width: 480px) {
+
+   .theme5 {
+      display: block;
+   }
+
+   .indhold h1 {
+       margin: 50px 30px 30px 30px;
+       font-size: 70px;
+       letter-spacing: 5px;
+    }
+    
+   .indhold p {
+       margin: 10px 50px 20px 50px;
+   }
+   
+   .indhold { 
+      background-size: 100%;
+      height: 250px;   
+   }
+
+   .videosite_p p {
+      text-align: right;
+   }
+   
+   .videosite_p h5 {
+      text-align: right;
+      margin: 0;
+   }
+
+   .virksomhedssite_p p {
+      text-align: left;
+   }
+
+   .virksomhedssite_p h5 {
+      text-align: left;
+      margin: 0;
+   }
+
+   .belly {
+      width: 101%;
+      margin: 0;
+   }
+
+   .lille {
+      width: 95%;
+      margin: 0;
+    }
+}
+
+ /** ABOUT **/
+
+
+.cv_grid_1-1-1 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.resume {
+   grid-column: 1/3;
+   grid-row: 1/2;
+   margin: 20px 150px 20px 5px;
+   line-height: 2;
+}
+
+.kompetencer {
+   grid-column: 3/4;
+   grid-row: 1/2;
+}
+
+.it {
+   grid-column: 1/2;
+   grid-row: 2/3;
+}
+
+.adobe {
+   grid-column: 2/3;
+   grid-row: 2/3;
+}
+
+.some {
+   grid-column: 3/4;
+   grid-row: 2/3;
+}
+
+@media (max-width: 480px) {
+
+   .about {
+      background-size: 100%;
+      height: 250px;    
+   }
+
+   .cv_grid_1-1-1 {
+      display: block;
+   }
+
+   .resume {
+   width: 100%;
+   }
+
+   .kompetencer {
+   width: 100%;
+   }
+
+   .it {
+   width: 100%;
+   }
+
+   .adobe {
+   width: 100%;
+   }
+
+   .some {
+   width: 100%;
+   }  
+
+}
